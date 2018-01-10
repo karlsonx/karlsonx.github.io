@@ -1,0 +1,54 @@
+@keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+@-webkit-keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+@-moz-keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+@-o-keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+.bar-graph {
+  list-style: none;
+}
+.bar-wrap {
+  /* -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px; */
+  /* border-radius: 10px 10px 10px 10px; */
+  /* background-color: white; */
+  /* border: 1px solid rgba(0, 123, 255, 1); */
+  /* border: 1px solid white; */
+  margin-bottom: 2px;
+  
+}
+
+.bar-fill {
+  /* -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px; */
+  -moz-animation: bar-fill 1s;
+  -webkit-animation: bar-fill 1s;
+  -ms-animation: bar-fill 1s;
+  animation: bar-fill 1s;
+  background-color: rgba(0, 123, 255, 1);
+  display: block;
+  height: 20px;
+  width: px;
+  padding-left: 5px; 
+}
+
+.black-progress {
+  color: white;
+}
