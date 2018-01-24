@@ -17,11 +17,9 @@ body {
 .timeline {
   color: #fff;
 }
-.timeline h1,
-.timeline ul li .content h2 {
-}
+
 .timeline h1 {
-  background: #007bff
+  background: #007bff;
   padding: 70px 0;
   font-size: 2.5em;
   text-align: center;

@@ -65,6 +65,7 @@
 .greybar {
    /* background: #ee0804; */
     /* background-image: linear-gradient(rgba(48,113,169, 0.9), rgba(48,113,169, 0.9)),url(../img/LA2.jpg);  */
+    
     background:url(../img/LA3.jpg) no-repeat center center;
     background-color: #007bff;
     background-blend-mode:soft-light;
